@@ -1,0 +1,38 @@
+/* Rounded  ProfileImage*/
+
+.Homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    font-family: 'Arial';
+    font-weight: normal;
+    text-align: center;
+  }
+
+
+.ProfilePicture {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
+.Homepage
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.Homepage-user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+

@@ -1,0 +1,104 @@
+.Playlists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #fafafa;
+    overflow: auto;
+    font: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #4CAF50;
+    margin-bottom: 3rem;
+}
+
+.item-image {
+    margin-top: 3rem;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 25px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Playlists-list-item-info {
+    margin-top: 0;
+    color: #4CAF50;
+    background-color: #fafafa;
+}
+
+
+/* .Playlist has a centered background, the image looks gray until cursor hover */
+
+
+
+.Playlist {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    width: 30rem;
+    margin: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Playlist:hover {
+    -webkit-filter: brightness(100%);
+}
+
+.Playlist-info {
+    position: relative;
+
+    align-items: center;
+    align-self: center;
+    
+
+}
+
+.Playlist-info p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #4CAF50;
+}
+
+.Playlist-info h3 {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 0;
+    color: #69F56E;
+
+    -webkit-text-stroke: 1px #fafafa;
+    -webkit-text-fill-color: #69F56E;
+}
+
+.Playlist-info button {
+    background-color: #327535;
+    color: #fafafa;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    cursor: pointer;
+    
+}
